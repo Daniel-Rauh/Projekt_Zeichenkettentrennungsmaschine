@@ -14,7 +14,7 @@ function trennen() {
             resultVorne = input.value.slice(0, input.value.indexOf(position.value))
             resultHinten = input.value.slice(input.value.indexOf(position.value))
         } else {
-            resultVorne = input.value.slice(0, (input.value.indexOf(position.value) + position.value.length))
+            resultVorne = input.value.slice(0, input.value.indexOf(position.value) + position.value.length)
             resultHinten = input.value.slice(input.value.indexOf(position.value) + position.value.length)
         }
     }
