@@ -8,7 +8,7 @@ let resultHinten
 function trennen() {
     if (input.value.indexOf(position.value) == -1) {
         resultVorne = "Dieses Zeichen kann"
-        resultHinten = "nicht gedunden werden"
+        resultHinten = "nicht gefunden werden"
     } else {
         if (davor.checked) {
             resultVorne = input.value.slice(0, input.value.indexOf(position.value))
